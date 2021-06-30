@@ -38,5 +38,32 @@
   padding: 5px;
 }
 
+@media (max-width: 768px) {
+
+  .App {
+    padding: 10px;
+    height: 100vh;
+  }
+
+  .userWrite {
+    height: 24px;
+  }
+
+  .containerCart ul {
+    justify-content: flex-start;
+  }
+
+  .containerCart ul li {
+    width: 165px;
+    height: 140px;
+    background: rgb(224, 65, 65);
+    border: 1px solid rgb(87, 6, 6);
+    margin: 3px;
+  }
+
+  .total {
+    width: 295px;
+  }
+}
 
 

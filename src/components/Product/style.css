@@ -12,3 +12,13 @@ button {
   background: blue;
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+
+  button {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+}

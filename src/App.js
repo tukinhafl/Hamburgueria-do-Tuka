@@ -42,7 +42,7 @@ function App() {
         <p className='total'>Subtotal: {
           cart.map(item => item.price).reduce((acc, itemAtual) => acc + itemAtual, 0).toFixed(2)
           }R$</p>
-        <ul>
+        <ul className='cartList'>
           {cart.map((item, idx) => <li key={idx}>
             <p>{item.name}</p> 
             <p>category: {item.category}</p> 
