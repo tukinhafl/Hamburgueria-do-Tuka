@@ -1,0 +1,14 @@
+div, h1, h3, button {
+  padding: 0;
+  margin: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: blue;
+  font-size: 1.5rem;
+}
