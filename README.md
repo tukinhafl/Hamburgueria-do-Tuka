@@ -1,7 +1,7 @@
 # Hamburgueria do Tuka
 
 <div align="center">
-  <img height=400px width=500px src="https://i.imgur.com/tfk7F3y.png" alt="Home-page-hamburgueria" border="0">
+  <img height=200px width=1000px src="https://i.imgur.com/tfk7F3y.png" alt="Home-page-hamburgueria" border="0">
 </div>
 
 <h1 align="center">Marketplace destinado para fastfood.</h1>
