@@ -1,12 +1,17 @@
 import { Product } from '../Product'
-import './style.css'
+import { Lista, Itens } from './style'
 
 export const MenuContainer = ( { product, handleClick } ) => {
   return(
-    <ul>
-      {product.map( (item, idx) => <li key={idx}> 
-      <Product item={item} handleClick={handleClick}/>
-       </li> ) }
-    </ul>
+    <Lista>
+      {product.map( (item, idx) => 
+      <Itens key={idx}>
+        <div className='card'>
+          <div className='content'> 
+            <Product item={item} handleClick={handleClick}/>
+          </div>
+        </div>
+      </Itens> ) }
+    </Lista>
   )
 }
